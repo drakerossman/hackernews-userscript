@@ -23,9 +23,9 @@ All the filtering data and settings are stored in the localstorage.
 See the videos below for the features showcase!
 
 # Features Showcase
-![Filter by Title](./filter-by-title.mp4)
+https://github.com/drakerossman/hackernews-userscript/assets/97120319/fc6d9e68-b897-4f78-b2e0-172dce9f8e6b
 
-![Filter by Username](./filter-by-username.mp4)
+https://github.com/drakerossman/hackernews-userscript/assets/97120319/0a18c470-61aa-43ca-bdd5-e9079af97375
 
 # Local Development and Installation
 For the local development, a convenient `flake.nix` with devshell is provided.
