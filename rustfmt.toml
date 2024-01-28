@@ -1,0 +1,17 @@
+edition = "2018"
+
+brace_style = "AlwaysNextLine"
+chain_width = 1
+control_brace_style = "AlwaysNextLine"
+fn_args_layout = "Vertical"
+imports_layout = "Vertical"
+match_arm_leading_pipes = "Always"
+match_block_trailing_comma = true
+merge_derives = false
+imports_granularity = "Module"
+reorder_impl_items = true
+reorder_imports = false
+group_imports = "StdExternalCrate"
+reorder_modules = false
+struct_lit_single_line = false
+trailing_comma = "Vertical"

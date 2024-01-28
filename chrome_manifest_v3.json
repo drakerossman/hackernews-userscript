@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "Hackernews Userscript",
+    "description": "Play Hide and Seek",
+    "version": "1.0.0",
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "background": {
+        "service_worker": "background-worker.js"
+    },
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "host_permissions": [
+        "*://news.ycombinator.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://news.ycombinator.com/*"
+            ],
+            "js": [
+                "hackernews_userscript.js",
+                "run_wasm.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "hackernews_userscript_bg.wasm"
+            ],
+            "matches": [
+                "*://news.ycombinator.com/*"
+            ]
+        }
+    ]
+}
