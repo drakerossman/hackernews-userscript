@@ -44,7 +44,7 @@ It will walk you through the installation process via easy-to-follow prompts. Yo
 3. Navigate to the cloned repo's directory and invoke the devshell:
 ```sh
 cd hackernews-userscript
-nix develop
+nix --extra-experimental-features 'nix-command flakes' develop
 ```
 
 After fetching the files, all the tools required for compilation and development should be made ready-available in the new shell.
@@ -95,6 +95,8 @@ error: linking with `cc` failed: exit status: 1
 - [ ] Infotips on hover
 
 # In the Future
+- [ ] Safari support, mobile support
+- [ ] Local-first cloud sync between devices
 - [ ] Support for other websites
 - [ ] Social collaborative filtering
 
