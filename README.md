@@ -1,6 +1,6 @@
 Available for Firefox and Chrome:
 
-![Firefox Add-Onn](./firefox-store.webp) ![Chrome Extension](./chrome-store.webp)
+[![Firefox Add-Onn](./firefox-store.webp)](https://addons.mozilla.org/en-US/firefox/addon/hackernews-userscript) [![Chrome Extension](./chrome-store.webp)](https://chromewebstore.google.com/detail/hackernews-userscript/ifhpcnanpbmjddhbmdjigdmkcliehdeo?hl=en&authuser=0)
 
 # Description
 Hacker News Userscript - a Browser Extension to Play Hide and Seek!
